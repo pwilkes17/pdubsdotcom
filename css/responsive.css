@@ -1,0 +1,51 @@
+@media (min-width: 850px) {
+	
+	.title {
+		display: visible !important;
+	}
+	.main-space{
+		width: 60%;
+		background-image: url(../img/pdubs-index-back.png);
+		background-repeat: no-repeat;
+		margin: 200px auto 0;
+		background-position: center;
+	}
+
+.nav-list {
+	padding: 0;
+	margin-top: 40px;
+}
+
+.nav-item {
+	list-style-type: none;
+	padding: 5px;
+	font-variant: small-caps;
+	float: left;
+	font-size: 15px;
+	border-style: ridge;
+	background-color: #555;
+	margin-top: 27px;
+	border-radius: 5px;
+	
+}
+
+.nav-bar {
+	height: 100px;
+	overflow: hidden;
+	margin: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+.img-container {
+	height: 100%;
+	margin: auto;
+	float: left;
+	display: inline-block;
+}
+
+
+
+}
