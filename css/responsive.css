@@ -1,51 +1,69 @@
-@media (min-width: 850px) {
+@media (min-width: 36em) {
 	
+	.container {
+		width: 36em;	
+	}
+
+	.menu > li {
+			display: inline-block;
+			
+			padding: 0 .5em;
+		}
+	.logo { 
+		display: inline-block;
+	}
+
+}
+
+
+
+@media (min-width: 60em) {
+	
+	.container {
+		width: 60em;	
+	}
+
 	.title {
-		display: visible !important;
-	}
-	.main-space{
-		width: 60%;
-		background-image: url(../img/pdubs-index-back.png);
-		background-repeat: no-repeat;
-		margin: 200px auto 0;
-		background-position: center;
-	}
+		font-variant: small-caps;
+		display: inline-block;
+		color: white;
+		font-size: 6em;
+		margin: 0;
+		text-shadow: .02em .02em .5em #000;
 
-.nav-list {
-	padding: 0;
-	margin-top: 40px;
-}
-
-.nav-item {
-	list-style-type: none;
-	padding: 5px;
-	font-variant: small-caps;
-	float: left;
-	font-size: 15px;
-	border-style: ridge;
-	background-color: #555;
-	margin-top: 27px;
-	border-radius: 5px;
+	}
 	
+	.main {
+		width: 70%;
+		margin-top: 18em;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.hidden-text {
+		display:inline-block;
+	}
+	nav a {
+		padding: .75em;
+	}
+
+	nav a:hover {
+		background-color: #fff;
+		color: #000;
+		border-radius: .5em;
+		padding: .75em;
+
+	}
+}	
+
+@media (min-width: 70em) {
+
+	.container {
+		width: 70em;
+	}
 }
 
-.nav-bar {
-	height: 100px;
-	overflow: hidden;
-	margin: 0;
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-}
 
-.img-container {
-	height: 100%;
-	margin: auto;
-	float: left;
-	display: inline-block;
-}
+	
 
 
-
-}
