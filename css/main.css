@@ -35,3 +35,26 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 
 /*videos css*/
+
+.iframeBox {
+	background-color: rgba(82,84,86,1);
+	width: 100%;
+}
+
+.vidTitle  {
+	color: white;
+	padding: 0 .5em;
+}
+
+iframe {
+	width: 100%;
+}
+
+
+
+/*Temp hide menu
+.menu-right{
+	display: none;
+}
+*/
+
