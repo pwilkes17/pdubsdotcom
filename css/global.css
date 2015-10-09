@@ -12,6 +12,7 @@ body {
 
 .title {
 	display: none;
+	vertical-align: text-bottom;
 
 }
 
@@ -72,6 +73,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
 
 
 }
+.menu-right ul {
+	margin-top: -1em;
+
+}
+
+
 .bar-top {
 	
 }
