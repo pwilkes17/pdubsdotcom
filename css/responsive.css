@@ -1,7 +1,22 @@
-@media (min-width: 36em) {
+@media (max-width: 40em) {
+	.menu-right {
+		position: fixed;
+		top: -20em;
+		left: 0;
+		right: 0;
+		z-index: 1;
+		transition: 1s top ease;
+	}
+	.is-active {
+		top: 10em;
+	}
+
+}
+
+@media (min-width: 40em) {
 	
 	.container {
-		width: 36em;	
+		width: 40em;	
 	}
 
 	.menu > li {
@@ -11,6 +26,12 @@
 		}
 	.logo { 
 		display: inline-block;
+	}
+	.main {
+		margin-top: 14em;
+	}
+	.dropdown {
+		display: none;
 	}
 
 }
@@ -43,16 +64,19 @@
 	.hidden-text {
 		display:inline-block;
 	}
-	nav a {
+	.nav a {
 		padding: .75em;
 	}
 
-	nav a:hover {
+	.nav a:hover {
 		background-color: #fff;
 		color: #000;
 		border-radius: .5em;
 		padding: .75em;
 
+	}
+	.dropdown {
+		display: none;
 	}
 }	
 
@@ -60,6 +84,9 @@
 
 	.container {
 		width: 70em;
+	}
+	.dropdown{
+		display:none;
 	}
 }
 

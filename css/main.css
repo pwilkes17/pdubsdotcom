@@ -36,7 +36,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 .comments {
 	margin: 0 auto;
-
+	display: block;
 	width: 90%;
 }
 
